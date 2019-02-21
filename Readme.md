@@ -5,7 +5,7 @@ Convert winobias dataset to conll format
 python toSentences.py data/anti_stereotyped_type1.txt.dev wino_sentences/
 
 Run Berkeleycoref preprocessh script
-e.g sh scripts/preprocess.sh wino_sentences/ data/wino_preprocess/
+*refer to "preprocessing" section [here](http://nlp.cs.berkeley.edu/downloads/berkeleycoref-readme.txt)*
 
 python addCoref.py data/winobias.txt data/wino_preprocess/ wino_berkeley/
 
