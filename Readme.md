@@ -2,7 +2,7 @@ Convert winobias dataset to conll format
 
 *Based on Berkeley Coref system*
 
-python toSentences.py data/winobias.txt wino_sentences/
+python toSentences.py data/anti_stereotyped_type1.txt.dev wino_sentences/
 
 Run Berkeleycoref preprocessh script
 e.g sh scripts/preprocess.sh wino_sentences/ data/wino_preprocess/
