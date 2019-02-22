@@ -24,7 +24,7 @@ for line in lines:
             break
         if word in ['[', '(', '{']:
             buffer.append('('+entityIdx[word])
-            if word == '(' or word == ')':
+            if word == '(' or word == ')': #as we only use "[" and "]" to annotate the coref chain, this is used for our debugging. Change this as needed.
 		sys.exit()
         elif word in [']', ')', '}']:
             if flag == 1:
