@@ -2,7 +2,7 @@ Convert winobias dataset from .txt format to .conll format
 
 *Based on Berkeley Coref system* (please check [their website](http://nlp.cs.berkeley.edu/projects/coref.shtml) for more info)
 
-1. extract the senteces from winobias.txt (in our case, _winobias.txt_ means "anti_stereotyped_type1.txt.dev" etc.)
+1. extract the senteces from winobias.txt (in our case, _winobias.txt_ means _anti_stereotyped_type1.txt.dev_ etc.)
 ```
 mkdir wino_sentences
 python toSentences.py data/anti_stereotyped_type1.txt.dev wino_sentences/ 
